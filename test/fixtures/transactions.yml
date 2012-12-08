@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  acc_from: 1
+  acc_to: 1
+  ammount: 1
+  description: MyString
+  date: MyString
+
+two:
+  acc_from: 1
+  acc_to: 1
+  ammount: 1
+  description: MyString
+  date: MyString
