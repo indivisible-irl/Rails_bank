@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  acc_num: MyString
+  sort_code: MyString
+  balance: 1
+  customer_id: 1
+
+two:
+  acc_num: MyString
+  sort_code: MyString
+  balance: 1
+  customer_id: 1

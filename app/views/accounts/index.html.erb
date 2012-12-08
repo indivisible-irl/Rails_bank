@@ -1,0 +1,29 @@
+<h1>Listing accounts</h1>
+
+<table>
+  <tr>
+    <th>Acc num</th>
+    <th>Sort code</th>
+    <th>Balance</th>
+    <th>Customer</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @accounts.each do |account| %>
+  <tr>
+    <td><%= account.acc_num %></td>
+    <td><%= account.sort_code %></td>
+    <td><%= account.balance %></td>
+    <td><%= account.customer_id %></td>
+    <td><%= link_to 'Show', account %></td>
+    <td><%= link_to 'Edit', edit_account_path(account) %></td>
+    <td><%= link_to 'Destroy', account, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Account', new_account_path %>
